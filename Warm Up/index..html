@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - AIT TAMGHART Abdelghani</title>
+    <meta name="description" content="Portfolio professionnel d'AIT TAMGHART Abdelghani, Développeur Full Stack Java.">
+    <meta property="og:title" content="Portfolio de [Votre Nom]">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER avec role="banner" -->
+    <header role="banner">
+        <h1>AIT TAMGHART Abdelghani</h1>
+        <nav aria-label="Navigation principale">
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#experience">Expérience</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-toggle" aria-label="Changer de thème">🌙 Thème</button>
+        </nav>
+    </header>
+
+    <main role="main">
+        <!-- Section À propos -->
+        <section id="about">
+            <h2>À propos</h2>
+            <p>
+                Développeur Full Stack Java passionné par les technologies web et les architectures modernes.
+                Expertise en Java, JEE, Spring Boot, ainsi qu'en développement frontend (React, Angular).
+                Esprit d'équipe, adaptabilité, créativité et sens de l'initiative.
+            </p>
+        </section>
+
+        <!-- Compétences -->
+        <section id="skills">
+            <h2>Compétences techniques & Soft Skills</h2>
+            <div class="skills-grid">
+                <div>
+                    <h3>Développement Backend</h3>
+                    <ul class="skill-list">
+                        <li>Java / JEE / Spring Boot</li>
+                        <li>Laravel, Symfony, PHP</li>
+                        <li>REST API, JPA, Hibernate</li>
+                        <li>Tests : JUnit, Mockito</li>
+                        <li>Serveurs : GlassFish, Tomcat</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Développement Frontend</h3>
+                    <ul class="skill-list">
+                        <li>ReactJS, Angular</li>
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>Bootstrap 5, Tailwind CSS</li>
+                        <li>AJAX, jQuery, Stimulus</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Base de données & Outils</h3>
+                    <ul class="skill-list">
+                        <li>MySQL, PostgreSQL, MongoDB, MariaDB</li>
+                        <li>Git, GitHub, GitLab</li>
+                        <li>Docker, Maven</li>
+                        <li>Jira, Trello</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Soft Skills & Langues</h3>
+                    <ul class="skill-list">
+                        <li>Travail d'équipe, Agilité, Gestion de projet</li>
+                        <li>Créativité, Initiative, Problem Solving</li>
+                        <li>Français (avancé), Anglais (intermédiaire)</li>
+                        <li>Arabe, Tamazight (maternelle)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets avec Grid -->
+        <section id="projects">
+            <h2>Projets</h2>
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="search-input" 
+                    placeholder="🔍 Rechercher un projet ou une technologie..."
+                    aria-label="Rechercher des projets"
+                >
+            </div>
+
+            <div id="projects-list" class="projects-grid">
+                <!-- Les projets seront insérés ici par JavaScript -->
+            </div>
+        </section>
+
+        <!-- Expérience -->
+        <section id="experience">
+            <h2>Expériences professionnelles & Formation</h2>
+            <div class="resume-section">
+                <h3>ZAIM Digital - Casablanca</h3>
+                <p class="muted">Développeur Full Stack (stagiaire) — 05/2024 - 07/2024</p>
+                <p>Tâches : Développement de KPI (LABCORP BTP), détection d'erreurs. Tech : Symfony 6.4, Stimulus, Docker, ChartJS, MariaDB.</p>
+
+                <h3>ZAIM Digital - Casablanca</h3>
+                <p class="muted">Développeur Full Stack (freelance) — 10/2024 - 12/2024</p>
+                <p>Tâches : Synchronisation CRUD avec Odoo, automatisation de rapports Excel.</p>
+
+                <h3>Formation</h3>
+                <p>Institut Spécialisé de Technologie Appliquée Tinghir — Diplôme de technicien spécialisé, Développement digital option Web Full Stack.</p>
+                <p>UM6P / Youcode Youssoufia (en cours).</p>
+
+                <h3>Projets réalisés (exemples)</h3>
+                <ul>
+                    <li>DevSync — Plateforme collaborative de gestion de tâches (Jakarta EE, Maven, JSP, JPA, Hibernate)</li>
+                    <li>LigueChasse — Gestion des compétitions (Java, Angular, Spring Boot, Spring Security)</li>
+                    <li>Assamer-Market — Marketplace (Java, Spring Boot, Angular, NGRX)</li>
+                    <li>SudEst Market — Marketplace (PHP, Laravel, TailwindCSS)</li>
+                    <li>EVENTHarBor — Plateforme d'événements (PHP, Laravel)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><strong>Téléphone :</strong> +212 087-070-667</p>
+                <p><strong>Email :</strong> a.aittamghart8@gmail.com</p>
+                <p><strong>LinkedIn :</strong> <a href="#" target="_blank" rel="noopener">Abdelghani Ait Tamghart</a></p>
+                <p><strong>GitHub :</strong> <a href="#" target="_blank" rel="noopener">abdelghani-hub</a></p>
+            </div>
+
+            <form action="#" method="post" aria-label="Formulaire de contact">
+                <div class="form-group">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" required aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Adresse email</label>
+                    <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-description">
+                    <small id="email-description" class="form-help">Nous ne partagerons jamais votre email avec des tiers.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" required aria-required="true"></textarea>
+                </div>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AIT TAMGHART Abdelghani</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
